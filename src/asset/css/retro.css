@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d3d3d3; /* 회색 톤 배경 */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.app-container {
+  background-color: #a9a9a9; /* app-container 회색 배경 */
+  padding: 100px;
+  border: 2px solid #000;
+  width: 100%;
+  max-width: 800px; /* 입력 화면 너비 설정 */
+  text-align: center;
+  box-shadow: 10px 10px 0 #000;
+}
+
+.history-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 2px solid #000;
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.sender {
+  color: red;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.chat-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #000;
+  width: 90%; /* 입력창 넓이 설정 */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.send-button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: 2px solid #000;
+  cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
