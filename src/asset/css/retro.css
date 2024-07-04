@@ -20,6 +20,7 @@ body {
   max-width: 800px; /* 입력 화면 너비 설정 */
   text-align: center;
   box-shadow: 10px 10px 0 #000;
+  position: relative; /* 화살표 위치 설정을 위해 position 추가 */
 }
 
 .history-container {
@@ -66,4 +67,16 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #000;
   color: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrow-left {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  margin-right: 10px;
 }

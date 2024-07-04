@@ -12,6 +12,9 @@ const Menubar = () => {
           <li>
             <Link to='/movies'>Movies</Link>
           </li>
+          <li>
+            <Link to='/chat'>Chatting</Link>
+          </li>          
         </ul>
       </div>
     </div>
